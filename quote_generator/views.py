@@ -6,5 +6,8 @@ from django.http import HttpResponse
 def  index(request):
     return render(request, 'quote_generator/index.html')
 
+# def  index(request):
+#     return render(request, 'exchange_rate/index.html')
+
 # def  about(request):
 #     return render(request, 'quote_generator/about.html')

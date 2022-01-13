@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     # 'portfolio_site',
     'portfolio',
     'blog',
+    'exchange_rate',
 
 ]
 
@@ -117,6 +118,7 @@ STATIC_DIRS =[
     BASE_DIR / 'movie_booking' / 'static',
 ]
 
+# In this line upload the images from the portfolio
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
